@@ -1,13 +1,12 @@
-// ignore_for_file: public_member_api_docs, lines_longer_than_80_chars
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'screens/screens.dart';
+import 'package:providerplay/home.dart';
 
 /// This is a reimplementation of the default Flutter application using provider + [ChangeNotifier].
 
 void main() {
-  runApp(const MaterialApp(home: StatefulHomepage()));
+  runApp(const Home());
   // runApp(
   /// Providers are above [MyApp] instead of inside it, so that tests
   /// can use [MyApp] while mocking the providers
