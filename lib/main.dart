@@ -2,8 +2,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:providerplay/simplehomepage.dart';
-import 'package:providerplay/statefullhomepage.dart';
+import 'screens/screens.dart';
 
 /// This is a reimplementation of the default Flutter application using provider + [ChangeNotifier].
 
